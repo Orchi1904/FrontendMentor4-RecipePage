@@ -8,7 +8,7 @@ type Props = {
 function Instructions({ instructionsArr }: Props) {
   return (
     <div>
-      <h2 className="font-youngSerif text-nutmeg text-[28px] mb-2">
+      <h2 className="font-youngSerif text-nutmeg text-[28px] mb-1">
         Instructions
       </h2>
       <OList itemArr={instructionsArr} markerColor="text-nutmeg"/>

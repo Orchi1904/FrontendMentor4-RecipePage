@@ -57,9 +57,9 @@ export default function Home() {
           cooking="5 minutes"
         />
         <Ingredients ingredientsArr={ingredients} />
-        <hr className="text-light-grey my-[30px]" />
+        <hr className="text-light-grey my-[25px]" />
         <Instructions instructionsArr={instructions} />
-        <hr className="text-light-grey my-[30px]" />
+        <hr className="text-light-grey my-[25px]" />
         <Nutrition calories={277} carbs={0} protein={20} fat={22} />
       </div>
     </main>
