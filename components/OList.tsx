@@ -12,7 +12,7 @@ function OList({ itemArr, markerColor }: Props) {
         <li className="flex pt-2" key={index}>
           <span className={`font-outfitBold ${markerColor}`}>{index+1}.</span>
           <span className="ml-[19px]">
-            <span className="font-outfitBold text-dark-charcoal">
+            <span className="font-outfitBold text-wenge-brown">
               {item.title}
             </span>
             {item.title ? ": " : ""}

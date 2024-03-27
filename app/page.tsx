@@ -42,7 +42,7 @@ const instructions = [
 
 export default function Home() {
   return (
-    <main className="bg-white max-w-[710px] mx-auto tablet:rounded-3xl tablet:pt-[32px] pb-[32px] tablet:my-32 text-wenge-brown">
+    <main className="bg-white max-w-[720px] mx-auto tablet:rounded-3xl tablet:pt-[32px] pb-[32px] tablet:my-32 text-wenge-brown">
       <Header
         title="Simple Omelette Recipe"
         description="An easy and quick dish, perfect for any meal. This classic omelette
