@@ -18,7 +18,7 @@ function Header({ title, description, image }: Props) {
           alt="Recipe image"
         />
       </div>
-      <h1 className="font-youngSerif text-[38px] leading-none mt-8 tablet:mt-12 mb-[30px] mx-[29px] max-w-[636px] tablet:mx-auto text-dark-charcoal">
+      <h1 className="font-youngSerif text-[38px] leading-none mt-8 tablet:mt-11 mb-[26px] mx-[29px] max-w-[636px] tablet:mx-auto text-dark-charcoal">
         {title}
       </h1>
       <p className="font-outfitRegular mx-[30px] max-w-[636px] tablet:mx-auto">

@@ -618,6 +618,12 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
+.mb-\[28px\] {
+  margin-bottom: 28px;
+}
+.mb-\[26px\] {
+  margin-bottom: 26px;
+}
 .flex {
   display: flex;
 }
@@ -823,6 +829,10 @@ video {
 
   .tablet\:mt-12 {
     margin-top: 3rem;
+  }
+
+  .tablet\:mt-11 {
+    margin-top: 2.75rem;
   }
 
   .tablet\:h-\[600px\] {
