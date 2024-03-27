@@ -14,7 +14,7 @@ function PrepTime({ total, preparation, cooking }: Props) {
   ];
 
   return (
-    <div className="bg-rose-white rounded-xl p-6 my-[30px]">
+    <div className="bg-rose-white rounded-xl p-6 mt-[30px] mb-[24px]">
       <h2 className="font-outfitBold text-dark-raspberry text-lg">
         Preparation time
       </h2>

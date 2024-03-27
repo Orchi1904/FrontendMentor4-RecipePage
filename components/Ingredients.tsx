@@ -8,7 +8,7 @@ type Props = {
 function Ingredients({ ingredientsArr }: Props) {
   return (
     <div>
-      <h2 className="font-youngSerif text-nutmeg text-[28px] mb-2">
+      <h2 className="font-youngSerif text-nutmeg text-[28px] mb-1">
         Ingredients
       </h2>
       <UList itemArr={ingredientsArr} markerColor="text-nutmeg" />

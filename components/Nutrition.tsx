@@ -22,21 +22,21 @@ function Nutrition({ calories, carbs, protein, fat }: Props) {
             {calories}kcal
           </span>
         </div>
-        <hr className="text-light-grey my-2" />
+        <hr className="text-light-grey my-3" />
         <div className="font-outfitRegular flex">
           <span className="flex-1 pl-8">Carbs</span>
           <span className="font-outfitBold flex-1 pr-4 text-nutmeg">
             {carbs}g
           </span>
         </div>
-        <hr className="text-light-grey my-2" />
+        <hr className="text-light-grey my-3" />
         <div className="font-outfitRegular flex">
           <span className="flex-1 pl-8">Protein</span>
           <span className="font-outfitBold flex-1 pr-4 text-nutmeg">
             {protein}g
           </span>
         </div>
-        <hr className="text-light-grey my-2" />
+        <hr className="text-light-grey my-3" />
         <div className="font-outfitRegular flex">
           <span className="flex-1 pl-8">Fat</span>
           <span className="font-outfitBold flex-1 pr-4 text-nutmeg">

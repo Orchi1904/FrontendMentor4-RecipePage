@@ -588,6 +588,14 @@ video {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.my-\[26px\] {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -623,6 +631,18 @@ video {
 }
 .mb-\[26px\] {
   margin-bottom: 26px;
+}
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+.mb-\[25px\] {
+  margin-bottom: 25px;
+}
+.mb-\[24px\] {
+  margin-bottom: 24px;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 .flex {
   display: flex;
