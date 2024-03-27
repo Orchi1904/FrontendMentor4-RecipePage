@@ -29,6 +29,10 @@ const config: Config = {
       eggshell: "hsl(30, 54%, 90%)",
       white: "hsl(0, 0%, 100%)",
     },
+    screens: {
+      'tablet': '710px',
+      'img-full-w': '636px'
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -15,11 +15,11 @@ function PrepTime({ total, preparation, cooking }: Props) {
 
   return (
     <div className="bg-rose-white rounded-xl p-6 my-[30px]">
-      <h3 className="font-outfitBold text-dark-raspberry text-lg">
+      <h2 className="font-outfitBold text-dark-raspberry text-lg">
         Preparation time
-      </h3>
+      </h2>
 
-      <UList itemArr={itemArr} markerColor="text-dark-raspberry"/>
+      <UList itemArr={itemArr} markerColor="text-dark-raspberry" />
     </div>
   );
 }

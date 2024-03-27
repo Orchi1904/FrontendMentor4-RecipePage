@@ -42,7 +42,7 @@ const instructions = [
 
 export default function Home() {
   return (
-    <main className="bg-white max-w-[710px] sm:mx-auto sm:rounded-3xl sm:pt-[32px] pb-[32px] sm:my-32">
+    <main className="bg-white max-w-[710px] mx-auto tablet:rounded-3xl tablet:pt-[32px] pb-[32px] tablet:my-32 text-wenge-brown">
       <Header
         title="Simple Omelette Recipe"
         description="An easy and quick dish, perfect for any meal. This classic omelette
@@ -50,7 +50,7 @@ export default function Home() {
         choice of cheese, vegetables, or meats."
         image={recipeImage}
       />
-      <div className="mx-[32px] sm:mx-auto max-w-[636px]">
+      <div className="mx-[32px] tablet:mx-auto max-w-[636px]">
         <PrepTime
           total="Approximately 10 minutes"
           preparation="5 minutes"
