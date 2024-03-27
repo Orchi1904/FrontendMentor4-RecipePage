@@ -1,21 +1,28 @@
-import Image from "next/image";
-import recipeImage from "@/assets/images/image-omelette.jpeg";
+import Image, { StaticImageData } from "next/image";
 
-function Header() {
+type Props = {
+  title: string,
+  description: string,
+  image: StaticImageData
+}
+
+function Header({title, description, image}: Props) {
   return (
-    <div>
-      <Image
-        className="w-full h-auto"
-        src={recipeImage}
-        width="0"
-        height="0"
-        alt="Recipe image"
-      />
-      <h1 className="font-youngSerif text-[38px] leading-none mx-[30px] mt-8 mb-[30px]">Simple Omlette Recipe</h1>
-      <p className="font-outfitRegular mx-[30px]">
-        An easy and quick dish, perfect for any meal. This classic omelette
-        combines beaten eggs cooked to perfection, optionally filled with your
-        choice of cheese, vegetables, or meats.
+    <div className="max-w-[636px] sm:mx-auto">
+      <div>
+        <Image
+          className="w-full h-auto sm:rounded-xl"
+          src={image}
+          width="0"
+          height="0"
+          alt="Recipe image"
+        />
+      </div>
+      <h1 className="font-youngSerif text-[38px] leading-none mt-8 mb-[30px] mx-[29px] sm:mx-0">
+        {title}
+      </h1>
+      <p className="font-outfitRegular mx-[30px] sm:mx-0">
+        {description}
       </p>
     </div>
   );

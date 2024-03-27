@@ -3,6 +3,7 @@ import Ingredients from "@/components/Ingredients";
 import Instructions from "@/components/Instructions";
 import Nutrition from "@/components/Nutrition";
 import PrepTime from "@/components/PrepTime";
+import recipeImage from "@/assets/images/image-omelette.jpeg";
 
 const ingredients = [
   { text: "2-3 large eggs" },
@@ -41,9 +42,15 @@ const instructions = [
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      <div className="mx-[32px]">
+    <main className="bg-white max-w-[710px] sm:mx-auto sm:rounded-3xl sm:pt-[32px] pb-[32px] sm:my-32">
+      <Header
+        title="Simple Omelette Recipe"
+        description="An easy and quick dish, perfect for any meal. This classic omelette
+        combines beaten eggs cooked to perfection, optionally filled with your
+        choice of cheese, vegetables, or meats."
+        image={recipeImage}
+      />
+      <div className="mx-[32px] sm:mx-auto max-w-[636px]">
         <PrepTime
           total="Approximately 10 minutes"
           preparation="5 minutes"
@@ -53,7 +60,7 @@ export default function Home() {
         <hr className="text-light-grey my-[30px]" />
         <Instructions instructionsArr={instructions} />
         <hr className="text-light-grey my-[30px]" />
-        <Nutrition />
+        <Nutrition calories={277} carbs={0} protein={20} fat={22} />
       </div>
     </main>
   );
